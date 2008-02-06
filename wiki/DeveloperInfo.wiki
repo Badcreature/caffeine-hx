@@ -1,4 +1,4 @@
 #summary Developer information links
 
-SvnStruncture
-Wishlist
+  * SvnStructure
+  * Wishlist
