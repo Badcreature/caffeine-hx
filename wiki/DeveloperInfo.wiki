@@ -2,4 +2,4 @@
 #labels Featured
 
   * SvnStructure
-  * Wishlist
+  * [Wishlist]
