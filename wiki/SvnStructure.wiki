@@ -1,7 +1,7 @@
 #summary Directory structure and relevant information
 
 = Basic concepts =
-The haxe extended library is code licensed under the BSD license. Compiler extensions will be under the same license as Haxe itself, which is the GPL. Neko ndll source code can be under the LGPL, but not the GPL. The linked libraries may be LGPL as well.
+The haxe extended library is code licensed under the BSD license. Compiler extensions will be under the same license as Haxe itself, which is the GPL. Neko ndll source code can be under the LGPL, but not the GPL. The external dependency libraries may be LGPL as well.
 
 == Directories ==
 
@@ -18,4 +18,3 @@ This is the root of the extended standard library. Code in this directory itself
 
 ===/tools==
 Tools for building, cleaning, publishing caffeine-hx itself. Not client side tools, those would go in /ext/Tools
-
