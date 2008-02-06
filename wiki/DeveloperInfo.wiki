@@ -1,4 +1,5 @@
 #summary Developer information links
+#labels Featured
 
   * SvnStructure
   * Wishlist
