@@ -1,0 +1,16 @@
+#summary Programming caffeine style
+
+= Classes =
+  * Classes must have a descriptive header doc to explain the use of the class
+  * Functions should be well commented for user documentation.
+  * Public variables should be commented
+  * Where possible, document @PARAM and @THROW
+
+
+= General =
+
+  * Whenever possible, avoid highly complex haxe code. Caffeine should be easy to maintain for a haxe programmer not at your skill level.
+  * Avoid Dynamic
+  * Avoid untyped
+  * Avoid cast
+  * Avoid Reflect
