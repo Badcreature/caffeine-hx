@@ -1,5 +1,4 @@
 #summary Classes that should be in caffeine-hx
-#labels Featured
 
 = What do we need? =
 
