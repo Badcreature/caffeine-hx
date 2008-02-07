@@ -19,7 +19,7 @@ Haxe compiler and it's extensions. Current projects or proposals include
 This is the root of the extended standard library. Code in this directory itself is in null-package space.
 
 ===/ext/Tests===
-[http://www.haxe.org/tutos/unittest Haxe unit tests] for all packages
+[http://www.haxe.org/tutos/unittest Haxe unit tests] for all packages. All compiled test files are to be prefixed with _test. Neko would be _test.n, flash _test8.swf and _test9.swf, and javascript _test.js. An index.html file should be provided for testing javascript, index_flash.html and index_flash9.html for flash targets. 
 
 ===/ext/Doc===
 Target directory for generated documentation. Documentation at this point is not to be committed.
