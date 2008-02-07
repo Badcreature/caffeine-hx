@@ -14,3 +14,11 @@
   * Avoid untyped
   * Avoid cast
   * Avoid Reflect
+
+= Haxe Std Library +
+
+Caffeine-hx includes files from the Haxe standard library that have been modified by Caffeine developers. When modifying a standard library file, any function that is modified _must be_ enclosed within a special comment block.
+{{{
+//*/2008-02-07// Russell Weir
+//*///
+}}}
