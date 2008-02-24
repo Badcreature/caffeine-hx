@@ -36,11 +36,11 @@ save() is now finished successful.
 
 
 _Failure handling:_
- * When no nodes respond with OK, something really bad happened and either all buddies died or are way too busy to care.  Retry sending the message at least once? Then discard the change (dont set in memory and dont write OK | OwnNode) and return false.
+ * When no nodes respond with OK, something really bad happened and either all buddies died or are way too busy to care.  Retry sending the message at least once?
+
  * When a node replies with FAIL there could be a change in the same record at the same time (probably small chance but possible). Discard the change (dont set in memory and dont write OK | OwnNode) and return false.
 
 
 Need a break now.
 
 See images aswell.
-
