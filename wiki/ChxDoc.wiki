@@ -59,7 +59,6 @@ chxdoc -o docs --tmpDir=_chxdoctmp --templateDir=../chxdoc/templates/default --i
 = Options =
 
 --developer=[true|false]
-------------------------
 	This tag is a shortcut to setting the following switches:
 	--showAuthorTags=bool;
 	--showPrivateClasses=bool;
