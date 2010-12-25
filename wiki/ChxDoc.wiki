@@ -93,6 +93,7 @@ public function myFunc(a : Int, s : String) : Bool {
 }}}
 
 The current available tags, all of which except for @deprecated can be used multiple times
+{{{
 @author
 @deprecated
 @param
@@ -102,6 +103,7 @@ The current available tags, all of which except for @deprecated can be used mult
 @throws
 @todo
 @type
+}}}
 
 @author [text]
 	Adds an author field
