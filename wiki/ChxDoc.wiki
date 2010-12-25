@@ -18,9 +18,17 @@ svn checkout http://caffeine-hx.googlecode.com/svn/trunk/projects/chxdoc chxdoc
 
 = Installation =
 
+CHXDOC is now installed from haxelib. It must be compiled on your local system, so the program can locate the default template.
+
+{{{
+haxelib install chxdoc
+haxelib run chxdoc install [optional path]
+}}}
+
+If the optional path parameter is omitted, chxdoc will be installed to the current directory.
+
 CHXDOC uses temploc, the template compiler system by Nicolas Cannasse. A compiled
-copy is supplied with binary distributions, or it may be compiled from your
-haxe std lib.
+copy is created when installing from haxelib.
 
 For source code checkouts, there is a neko compiled temploc.n in the ./utils/
 subdirectory. Simply run 'nekotools boot utils/temploc.n' to generate the binary,
