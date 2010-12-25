@@ -79,12 +79,12 @@ must be the first non-whitespace character on a line.
 
 {{{
 /**
-	This function does very little.
-	@param a An integer greater than 0
-	@param s A string
-	@return True if s is null
-	@throws haxe.io.Eof When a <= 0
-**/
+ *	This function does very little.
+ *	@param a An integer greater than 0
+ *	@param s A string
+ *	@return True if s is null
+ *	@throws haxe.io.Eof When a <= 0
+ **/
 public function myFunc(a : Int, s : String) : Bool {
 	if(a <= 0)
 		throw new haxe.io.Eof();
