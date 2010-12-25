@@ -42,8 +42,10 @@ parameters. This will generate the file that chxdoc requires.
 
 The most common usage of chxdoc would be something like:
 
+{{{
 chxdoc -o docs_dev --developer=true myproject.xml
 chxdoc -o docs --templateDir=templates/release myproject.xml
+}}}
 
 Two versions of the documentation would be created, one with all the private data
 documented (in docs_dev), and a public release of the documentation in docs.
@@ -54,7 +56,9 @@ the "all.hxml" file in the base directory of your installed standard lib. Once
 the xml files are generated, you could generate flash9, neko and js targets
 using a command similar to
 
+{{{
 chxdoc -o docs --tmpDir=_chxdoctmp --templateDir=../chxdoc/templates/default --installTemplate=true --developer=true flash9.xml,flash9,flash neko.xml,neko js.xml,js
+}}}
 
 = Options =
 
