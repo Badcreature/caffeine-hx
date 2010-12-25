@@ -105,31 +105,31 @@ The current available tags, all of which except for @deprecated can be used mult
 @type
 }}}
 
-@author [text]
+@author text
 	Adds an author field
 
-@deprecated [Description]
+@deprecated Description
 	Prints a deprecation warning. This tag is not currently in the
 	provided template, but is parsed.
 
-@param [name] Description
+@param name Description
 	Adds a notation about a method argument. Do not confuse this
 	with a haxe class or method type param (<T>).
 
-@requires [Description]
+@requires Description
 	Adds a description for requirements, like a required neko ndll file
 
-@return [Description]
+@return Description
 	Adds literal description to html. @returns is also accepted.
 
-@see [Description]
+@see Description
 	Adds description as a source to view
 
-@throws [full class path] [Description]
+@throws full_class_path Description
 	Will link html documentation to the class path provided, so it
 	must be a fully qualified class path. (haxe.io.Eof)
 
-@todo [Description]
+@todo Description
 	For generating TODO files and html notes
 
 = Package and Type filtering =
@@ -151,7 +151,7 @@ generated documentation.
 
 embedded tags like {@link } for things like @see {@link haxe.io.Bytes}
 
----
+----
 
 If you have any questions, visit #haxe on Freenode (Madrok), or
 by gmail (damonsbane).
