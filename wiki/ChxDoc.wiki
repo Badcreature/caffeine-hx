@@ -10,11 +10,11 @@ svn checkout http://caffeine-hx.googlecode.com/svn/trunk/projects/chxdoc chxdoc
 
 = Features =
 
-- Complete and clean documentation for releases or developer targets
-- Comment tags like @param, @return and @throws
-- Ability to generate docs for private vars, methods, typedefs, classes and enums
-- Templated html file generation
-- TODO file generation (planned for v 0.6)
+  * Complete and clean documentation for releases or developer targets
+  * Comment tags like @param, @return and @throws
+  * Ability to generate docs for private vars, methods, typedefs, classes and enums
+  * Templated html file generation
+  * TODO file generation (planned for v 0.6)
 
 = Installation =
 
