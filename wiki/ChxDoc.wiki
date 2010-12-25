@@ -113,8 +113,7 @@ The current available tags, all of which except for @deprecated can be used mult
 	provided template, but is parsed.
 
 @param name Description
-	Adds a notation about a method argument. Do not confuse this
-	with a haxe class or method type param (<T>).
+	Adds a notation about a method argument.
 
 @requires Description
 	Adds a description for requirements, like a required neko ndll file
