@@ -10,7 +10,7 @@ svn checkout http://caffeine-hx.googlecode.com/svn/trunk/projects/chxdoc chxdoc
 
 = Details =
 
-Features
+== Features ==
 ========
 
 - Complete and clean documentation for releases or developer targets
