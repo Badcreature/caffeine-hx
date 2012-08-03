@@ -29,7 +29,7 @@ If the optional path parameter is omitted, chxdoc will be installed to the curre
 CHXDOC uses a modified version of temploc, the template compiler system by Nicolas Cannasse.
 
 Install the chxdoc.exe file to somewhere on your executable path. The templates directory
-can be placed anywhere.
+can be placed anywhere, but chxdoc will read templates out of haxelib if it is installed there.
 
 
 = Usage =
@@ -44,8 +44,8 @@ parameters. This will generate the file that chxdoc requires.
 The most common usage of chxdoc would be something like:
 
 {{{
-chxdoc -o docs_dev --developer=true myproject.xml
-chxdoc -o docs --templateDir=templates/release myproject.xml
+chxdoc -o docs_dev --developer=true -f myproject.xml
+chxdoc -o docs --templateDir=templates/release -f myproject.xml
 }}}
 
 Two versions of the documentation would be created, one with all the private data
@@ -63,10 +63,7 @@ chxdoc -o docs --tmpDir=_chxdoctmp --templateDir=../chxdoc/templates/default --i
 
 = Options =
 
--f [package path]
-	Add a package or class filter. This will ignore the class or package specified.
-
---config=[xmlpath]
+--config=[[xmlpath]]
 	Loads a chxdoc configuration file. This option can be specified multiple times,
 	allowing configuration overlays processed in the order on the command line. See
 	'createConfig'.
@@ -153,11 +150,11 @@ The current available tags, all of which except for @deprecated can be used mult
 	For generating TODO files and html notes
 
 @type Description
-	For adding descriptions for types (<T>)
+	For adding descriptions for anonymous types
 
 = Package and Type filtering =
 
-Filtering has completely changed in chxdoc 1.2 to a more complete way of describing what
+Filtering completely changed in chxdoc 1.2 to a more complete way of describing what
 exactly you need to generate documentation for.
 
 Filtering is done with a series of rules that match either package paths or class paths. Each
