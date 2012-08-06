@@ -148,9 +148,6 @@ When using switches on the command line, the equals sign is optional, but is sho
 --htmlFileExtension=html
 	Extension for generated html files
 
---ignoreRoot=[true|false]
-	Toggle display of root classes
-
 --installCssFile=[true|false]
 	Install stylesheet from template to output directory
 
