@@ -21,9 +21,9 @@ If you have a custom template, you must change the _meta_ references to _webmeta
 
 == Filtering ==
 
-Filtering used to be done with the _-f_ and _--includeOnly_ switches. This did not allow for very fine grained control over what documentation got created. The new system in version 1.2 works more like a firewall, where packages are passed through the filter engine, which will either _allow_ or _deny_ documentation.
+Filtering used to be done with the _-f_, _--ignoreRoot_ and _--includeOnly_ switches. This did not allow for very fine grained control over what documentation got created. The new system in version 1.2 works more like a firewall, where packages are passed through the filter engine, which will either _allow_ or _deny_ documentation.
 
-The _-f_ and _--includeOnly_ switches have been removed. Use -_-policy_, _--allow_ and _--deny_. Refer to [ChxDoc#Package_and_Type_filtering]
+The _-f_, _--ignoreRoot_ and _--includeOnly_ switches have been removed. Use -_-policy_, _--allow_ and _--deny_. Refer to [ChxDoc#Package_and_Type_filtering]
 
 == Specifying templates ==
 
