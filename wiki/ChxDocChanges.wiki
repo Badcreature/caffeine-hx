@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Migration to 1.2.0.
 #labels Featured,Phase-Deploy
 
 = Introduction =
