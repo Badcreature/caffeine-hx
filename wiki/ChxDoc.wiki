@@ -17,7 +17,7 @@ svn checkout http://caffeine-hx.googlecode.com/svn/trunk/projects/chxdoc chxdoc
 
 = Installation =
 
-CHXDOC is now installed from haxelib. It must be compiled on your local system, so the program can locate the default template.
+CHXDOC is installed from haxelib. It is compiled on your system, and can be installed anywhere.
 
 {{{
 haxelib install chxdoc
@@ -68,10 +68,10 @@ will create a file _.chxdoc_ in your home directory. This file is always loaded 
 chxdoc is run. A custom chxdoc config xml file can be created then specified by the
 _--config=mycfg.xml_ command line switch.
 
-Xml config is chained. The first file loaded is your home .chxdoc file. After that,
-anything that is specified on the command line overrides current settings, which
-allows for sourcing multiple xml files and overriding any setting by using command
-line switches.
+Xml config settings are chained, so multiple _--config_ switches can be specified.
+The first file loaded is your home .chxdoc file. After that, anything that is
+specified on the command line overrides current settings, which allows for
+sourcing multiple xml files and overriding any setting by using command line switches.
 
 The order is
   * Your home .chxdoc file is loaded and parsed
